@@ -3,9 +3,15 @@ languageCode = 'en-us'
 title = 'Pranav Bhatia'
 theme = "typo"
 
+# Disable tags, actually, they are rendered as a list, but the idea is to disable them.
+disableKinds = ['taxonomy']
+
+
+
 [params]
 
 # theme = "light"
+
 
 
 homeIntro = true
@@ -19,6 +25,8 @@ This website is a record of my work, projects, and research.
 I've written a longer introduction [here](/about) if you're interested :)
 """
 
+[params.breadcrumbs]
+enabled = false
 
 [[params.social]]
 name = "linkedin"
@@ -26,7 +34,7 @@ url = "https://www.linkedin.com/in/p-bhatia"
 
 [[params.social]]
 name = "github"
-url = "https://github.com/pranavb1234/"
+url = "https://github.com/pranavb1234"
 
 
 
@@ -40,5 +48,5 @@ url = "/about"
 
 [[params.menu]]
 name = "projects"
-url = "/projects"
+url = "/projects/"
 
