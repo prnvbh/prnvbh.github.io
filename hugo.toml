@@ -1,0 +1,44 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Pranav Bhatia'
+theme = "typo"
+
+[params]
+
+# theme = "light"
+
+
+homeIntro = true
+homeIntroTitle = 'Hey! 🤖'
+homeIntroContent = """
+ I’m a software engineer who loves to solve complex problems. I’m passionate about Artificial Intelligence, distributed systems, and building reliable backend solutions. I thrive on creating efficient, scalable systems and constantly exploring new tech to stay ahead. 
+
+
+This website is a record of my work, projects, and research.
+
+I've written a longer introduction [here](/about) if you're interested :)
+"""
+
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/junaidrahim"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/junaidrahim"
+
+
+
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
